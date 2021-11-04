@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# Meeting.create!(title: "meeting 1", agenda: "qwertyuiop", location: "FL", time: "12:00")
+# Speaker.create!(first_name: "Jarret", last_name: "Nachtigal", email: "jn@test.com")
+MeetingSpeaker.create(meeting_id: 1, speaker_id: 1)
